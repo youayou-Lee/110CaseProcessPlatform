@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
+
+# Node.js
+node_modules/
+.npm/
+.yarn/
+*.log
+build/
+
+# IDE
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.*
+
+# Build artifacts
+dist/
+*.egg-info/
+
+# Logs
+*.log
+logs/
+
+# Local configuration
+config.py
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Frontend build
+frontend/build/
+frontend/node_modules/
+frontend/.env*
+frontend/dist/
+frontend/coverage/
+
+# Test & coverage
+coverage/
+*.cover
+*.pyc
+*.pyo
+*.pyd
+
+# Scripts
+scripts/*.log
+
+# Misc
+*.swp
+*.swo
