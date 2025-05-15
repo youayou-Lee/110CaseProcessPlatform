@@ -31,17 +31,7 @@ function Check-Requirements {
         Write-ColorOutput Red "错误: 未安装 Node.js，请先安装 Node.js"
         exit 1
     }
-    
-    # 检查 Python
-    try {
-        $pythonVersion = python --version
-        Write-ColorOutput Green "Python 版本: $pythonVersion"
-    }
-    catch {
-        Write-ColorOutput Red "错误: 未安装 Python，请先安装 Python"
-        exit 1
-    }
-    
+      
     # 检查 conda
     try {
         $condaVersion = conda --version
@@ -49,6 +39,17 @@ function Check-Requirements {
     }
     catch {
         Write-ColorOutput Red "错误: 未安装 Conda，请先安装 Conda"
+        exit 1
+    }
+
+    # 检查 Python
+    try {
+        conda activate you
+        $pythonVersion = python --version
+        Write-ColorOutput Green "Python 版本: $pythonVersion"
+    }
+    catch {
+        Write-ColorOutput Red "错误: 未安装 Python，请先安装 Python"
         exit 1
     }
 }
