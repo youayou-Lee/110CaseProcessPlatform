@@ -1,0 +1,15 @@
+# Backend Dependencies
+Flask==2.3.3
+Flask-SQLAlchemy==3.1.1
+psycopg2-binary==2.9.9 # For PostgreSQL, can be changed later
+Flask-Migrate==4.0.5
+Flask-RESTful==0.3.10
+python-dotenv==1.0.0
+Werkzeug==2.3.7
+celery==5.3.4
+redis==5.0.1
+ffmpeg-python==0.2.0
+python-magic==0.4.27
+Pillow==10.0.0
+requests==2.31.0
+# Add other dependencies as needed, e.g., for voice recognition, etc.

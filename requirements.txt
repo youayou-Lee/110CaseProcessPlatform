@@ -1,8 +1,0 @@
-# Backend Dependencies
-Flask==2.3.3
-Flask-SQLAlchemy==3.1.1
-psycopg2-binary==2.9.9 # For PostgreSQL, can be changed later
-Flask-Migrate==4.0.5
-Flask-RESTful==0.3.10
-python-dotenv==1.0.0
-# Add other dependencies as needed, e.g., for voice recognition, etc.
